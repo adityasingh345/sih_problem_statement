@@ -1,0 +1,74 @@
+{
+  "Shimla": {
+    "temperature": 18,
+    "rainfall": 82,
+    "humidity": 91,
+    "wind_speed": 23
+  },
+  "Dehradun": {
+    "temperature": 20,
+    "rainfall": 74,
+    "humidity": 89,
+    "wind_speed": 19
+  },
+  "Delhi": {
+    "temperature": 42,
+    "rainfall": 4,
+    "humidity": 52,
+    "wind_speed": 15
+  },
+  "Mumbai": {
+    "temperature": 27,
+    "rainfall": 64,
+    "humidity": 88,
+    "wind_speed": 18
+  },
+  "Kolkata": {
+    "temperature": 30,
+    "rainfall": 24,
+    "humidity": 78,
+    "wind_speed": 36
+  },
+  "Guwahati": {
+    "temperature": 26,
+    "rainfall": 71,
+    "humidity": 93,
+    "wind_speed": 17
+  },
+  "Chennai": {
+    "temperature": 32,
+    "rainfall": 12,
+    "humidity": 74,
+    "wind_speed": 43
+  },
+  "Jaipur": {
+    "temperature": 38,
+    "rainfall": 0,
+    "humidity": 29,
+    "wind_speed": 39
+  },
+  "Srinagar": {
+    "temperature": 12,
+    "rainfall": 3,
+    "humidity": 84,
+    "wind_speed": 8
+  },
+  "Kochi": {
+    "temperature": 28,
+    "rainfall": 58,
+    "humidity": 91,
+    "wind_speed": 21
+  },
+  "Patna": {
+    "temperature": 31,
+    "rainfall": 41,
+    "humidity": 86,
+    "wind_speed": 14
+  },
+  "Bengaluru": {
+    "temperature": 25,
+    "rainfall": 18,
+    "humidity": 73,
+    "wind_speed": 29
+  }
+}
