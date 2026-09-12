@@ -27,7 +27,10 @@
     "timestamp": "2026-09-11T10:00:00",
     "confidence": 89,
     "status": "VERIFIED",
-    "incident_id": 1
+    "incident_id": 1,
+    "language": "HI",
+    "original_text": "\u0936\u093f\u092e\u0932\u093e \u092e\u0947\u0902 \u092d\u093e\u0930\u0940 \u092c\u093e\u0930\u093f\u0936 \u0915\u0947 \u0915\u093e\u0930\u0923 \u0938\u0921\u093c\u0915 \u092a\u0930 \u092a\u093e\u0928\u0940 \u092d\u0930 \u0917\u092f\u093e \u0939\u0948\u0964",
+    "english_text": "Heavy rainfall has caused waterlogging in Shimla."
   },
   {
     "id": 3,

@@ -44,7 +44,10 @@ def build():
             t = base + timedelta(days=day_offset, hours=j*2)
             source = ["Official", "Verified source", "Reliable citizen", "Normal citizen", "New/untrusted"][j]
             rstatus = status if j == 0 else ("DUPLICATE" if j >= 2 else status)
-            reports.append({"id":len(reports)+1,"text":f"{texts[event]} in {city}; update {j+1}","source":source,"location":city,"state":state,"latitude":lat,"longitude":lng,"event_type":event,"severity":severity,"timestamp":t.isoformat(),"confidence":max(25, incident['confidence']-j*3),"status":rstatus,"incident_id":ix})
+            report={"id":len(reports)+1,"text":f"{texts[event]} in {city}; update {j+1}","source":source,"location":city,"state":state,"latitude":lat,"longitude":lng,"event_type":event,"severity":severity,"timestamp":t.isoformat(),"confidence":max(25, incident['confidence']-j*3),"status":rstatus,"incident_id":ix}
+            if ix == 1 and j == 1:
+                report.update({"language":"HI","original_text":"शिमला में भारी बारिश के कारण सड़क पर पानी भर गया है।","english_text":"Heavy rainfall has caused waterlogging in Shimla."})
+            reports.append(report)
     incoming = [
       {"text":"Massive flooding reported near Mall Road in Shimla", "source":"Reliable citizen", "timestamp":"2026-09-12T12:14:00"},
       {"text":"शिमला में भारी बारिश के कारण सड़क पर पानी भर गया है", "source":"Normal citizen", "timestamp":"2026-09-12T12:21:00"},
