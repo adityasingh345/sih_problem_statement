@@ -11,7 +11,16 @@ from .services.verification_engine import verify
 
 DATA=Path(__file__).parent/"data"; build()
 app=FastAPI(title="SIH 26069 Local MVP")
-app.add_middleware(CORSMiddleware,allow_origins=["http://localhost:5173"],allow_methods=["*"],allow_headers=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "https://sih-problem-statement-m5u3.vercel.app",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 def load(name): return json.loads((DATA/name).read_text())
 def save(name,value): (DATA/name).write_text(json.dumps(value,indent=2))
 def matches(item, q):
