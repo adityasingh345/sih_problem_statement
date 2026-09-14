@@ -9,9 +9,9 @@
     "severity": "High",
     "status": "VERIFIED",
     "confidence": 92,
-    "report_count": 7,
+    "report_count": 5,
     "first_report": "2026-09-01T08:00:00",
-    "last_updated": "2026-09-12T12:21:00"
+    "last_updated": "2026-09-01T12:00:00"
   },
   {
     "id": 2,
@@ -36,10 +36,10 @@
     "longitude": 77.209,
     "severity": "High",
     "status": "PENDING",
-    "confidence": 89,
-    "report_count": 6,
+    "confidence": 63,
+    "report_count": 5,
     "first_report": "2026-09-03T08:00:00",
-    "last_updated": "2026-09-12T13:05:00"
+    "last_updated": "2026-09-03T12:00:00"
   },
   {
     "id": 4,
@@ -92,10 +92,10 @@
     "longitude": 80.2707,
     "severity": "Medium",
     "status": "PENDING",
-    "confidence": 77,
-    "report_count": 6,
+    "confidence": 63,
+    "report_count": 5,
     "first_report": "2026-09-07T08:00:00",
-    "last_updated": "2026-09-12T14:10:00"
+    "last_updated": "2026-09-07T12:00:00"
   },
   {
     "id": 8,
